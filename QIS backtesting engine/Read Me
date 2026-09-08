@@ -1,0 +1,22 @@
+# QIS Backtesting & Analytics Engine
+
+An institutional-grade Quantitative Investment Strategies (QIS) backtesting and analytics platform built in Python and Streamlit, leveraging AI-assisted programming.
+
+## 🚀 Features
+* **Strategy Lab:** Multi-asset portfolio construction with custom weight allocation and real-time rebalancing.
+* **Factor Strategies:** Backtesting suites for Equity (Momentum, Low Volatility, Deep Learning) and Crypto assets.
+* **Institutional Risk Engine:** Automated computation of 11+ core performance and risk metrics (*Sharpe, Sortino, Calmar, Information Ratio, VaR 95%, Up/Down Capture Ratios*).
+* **Interactive Dashboards:** High-visibility Plotly visualizations including log-scale equity curves and correlation matrices.
+
+## 🛠️ Tech Stack
+* **Language:** Python
+* **UI Framework:** Streamlit
+* **Data Processing & Analytics:** Pandas, NumPy
+* **Visualization:** Plotly, Seaborn, Matplotlib
+
+## 📦 Project Structure
+```text
+├── app.py                 # Main Streamlit dashboard & UI logic
+├── metrics.py             # Professional QIS performance & risk metrics library
+├── data_converter.py      # Pipeline for raw data ingestion to optimized Pickle format
+└── requirements.txt       # Project dependencies
